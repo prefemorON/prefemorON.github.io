@@ -1,49 +1,32 @@
 
-// let btnleft = document.querySelector("#mainbanner .btn-left");
-// let btnright = document.querySelector("#mainbanner .btn-right");
-
-
-// console.log(btnleft);
-// console.log(btnright);
-
-// btnright.addEventListener("click", function () {
-//     if (btnleft.classlist.contains("anime")) {
-//         btnleft.classList.remove("anime");
-//     }
-//     else {
-//         btnleft.classList.add("anime");
-//     }
-// });
-// btnright.addEventListener("click", function () {
-//     if (btnright.classlist.contains("anime")) {
-//         btnright.classList.remove("anime");
-//     }
-//     else {
-//         btnright.classList.add("anime");
-//     }
-// });
-
 const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    // direction: 'horizontal',
-    loop: true,
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
 
-    // If we need pagination
-    pagination: {
-        el: '.swiper-pagination',
-    },
+  // Navigation arrows
+  navigation: {
+    nextEl: '.btn-right',
+    prevEl: '.btn-left',
+  },
 
-    // Navigation arrows
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-
-    // And if we need scrollbar
-    scrollbar: {
-        el: '.swiper-scrollbar',
-    },
 });
+
+
+var burger = document.querySelector('.burger');
+var mobileMenu = document.querySelector(".mobile-menu");
+var cross = document.querySelector('.cross');
+
+burger.addEventListener('click', () => {
+  burger.classList.toggle('active')
+  mobileMenu.classList.toggle('active')
+});
+
+cross.addEventListener('click', () => {
+  burger.classList.remove('active');
+  mobileMenu.classList.remove('active');
+});
+
 
 
 var tabs = document.querySelectorAll(".products-block__tab");

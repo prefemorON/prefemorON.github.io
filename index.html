@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js" type="text/javascript"></script>
     <title>Lavka</title>
 </head>
 
@@ -18,42 +20,148 @@
                     <a href="" class="header-link"> новинки</a>
                     <a href="" class="header-link"> о нас</a>
                 </div>
+                <div class="burger">
+                    <img class="burger__img" src="./assets/images/burger.svg" alt="">
+                </div>
             </div>
         </div>
     </div>
+    <div id="mobile-menu" class="mobile-menu">
+        <div class="mobile-menu_header-container">
+            <img src="./assets/images/logo.png" alt="">
+            <div class="cross">
+                <img class="red-cross" src="./assets/images/Cross_red_circle.png" alt="">
+            </div>
+            <div class="menu">
+                <a href="#products-block" style="color: gray;">Товары</a>
+                <a href="#seo" style="color: gray;">Новинки</a>
+                <a href="#contacts-block" style="color: gray;">О нас</a>
+            </div>
+        </div>
+        <div class="mobile-menu-info">
+            <div class="mobile-menu-number">+7 (999) 999-99-99</div>
+            <div class="mobile-menu-text">Мастерская</div>
+        </div>
+        <div class="mobile-menu__contacts">
+            <div class="mobile-menu__mobile-menu__contacts-text">
+                <div class="mobile-menu__contacts-icons">
+                    <!-- <img src="./assets/images/footer/icon1.png" alt="">
+                    <img src="./assets/images/footer/icon2.png" alt="">
+                    <img src="./assets/images/footer/icon3.png" alt=""> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div id="mainbanner">
         <div class="container">
-            <div class="mainbanner-wrapper">
-                <div class="left-side">
-                    <img class="mainbanner-img" src="./assets/images/banner/item.png" alt="">
-                </div>
-                <div class="right-side">
-                    <h2 class="mainbanner-title">Магия в Лавке Чародея</h2>
-                    <span class="mainbanner-subtitle">Лучшие магические товары во всем мире.
-                        По низким ценам. Для детей и их родителей скидки!</span>
-                    <a class="btn">Продукция</a>
-
-                    <div class="buttons">
-
-                        <div class="btn-left">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
-                                fill="none">
-                                <circle cx="20" cy="20" r="20" transform="rotate(-180 20 20)" fill="#6B6B8A" />
-                                <path d="M15.5995 24L12.3422 20M12.3422 20L15.5995 16M12.3422 20L27 20" stroke="white"
-                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </div>
-
-                        <div class="btn-right">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
-                                fill="none">
-                                <circle cx="20" cy="20" r="20" fill="#6B6B8A" />
-                                <path d="M24.4005 16L27.6578 20M27.6578 20L24.4005 24M27.6578 20H13" stroke="white"
-                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="mainbanner-wrapper">
+                            <div class="left-side">
+                                <img class="mainbanner-img" src="./assets/images/banner/item.png" alt="">
+                            </div>
+                            <div class="right-side">
+                                <h2 class="mainbanner-title">Магия в Лавке Чародея</h2>
+                                <span class="mainbanner-subtitle">Лучшие магические товары во всем мире.
+                                    По низким ценам. Для детей и их родителей скидки!</span>
+                                <a class="btn">Продукция</a>
+            
+                                <div class="buttons">
+            
+                                    <div class="btn-left">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
+                                            fill="none">
+                                            <circle cx="20" cy="20" r="20" transform="rotate(-180 20 20)" fill="#6B6B8A" />
+                                            <path d="M15.5995 24L12.3422 20M12.3422 20L15.5995 16M12.3422 20L27 20" stroke="white"
+                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+            
+                                    <div class="btn-right">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
+                                            fill="none">
+                                            <circle cx="20" cy="20" r="20" fill="#6B6B8A" />
+                                            <path d="M24.4005 16L27.6578 20M27.6578 20L24.4005 24M27.6578 20H13" stroke="white"
+                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <img scr="" alt="">
+                            </div>
                         </div>
                     </div>
-                    <img scr="" alt="">
+                    <div class="swiper-slide">
+                        <div class="mainbanner-wrapper">
+                            <div class="left-side">
+                                <img class="mainbanner-img" src="./assets/images/banner/item.png" alt="">
+                            </div>
+                            <div class="right-side">
+                                <h2 class="mainbanner-title">Магия в Лавке Чародея</h2>
+                                <span class="mainbanner-subtitle">Лучшие магические товары во всем мире.
+                                    По низким ценам. Для детей и их родителей скидки!</span>
+                                <a class="btn">Продукция</a>
+            
+                                <div class="buttons">
+            
+                                    <div class="btn-left">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
+                                            fill="none">
+                                            <circle cx="20" cy="20" r="20" transform="rotate(-180 20 20)" fill="#6B6B8A" />
+                                            <path d="M15.5995 24L12.3422 20M12.3422 20L15.5995 16M12.3422 20L27 20" stroke="white"
+                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+            
+                                    <div class="btn-right">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
+                                            fill="none">
+                                            <circle cx="20" cy="20" r="20" fill="#6B6B8A" />
+                                            <path d="M24.4005 16L27.6578 20M27.6578 20L24.4005 24M27.6578 20H13" stroke="white"
+                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <img scr="" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="mainbanner-wrapper">
+                            <div class="left-side">
+                                <img class="mainbanner-img" src="./assets/images/banner/item.png" alt="">
+                            </div>
+                            <div class="right-side">
+                                <h2 class="mainbanner-title">Магия в Лавке Чародея</h2>
+                                <span class="mainbanner-subtitle">Лучшие магические товары во всем мире.
+                                    По низким ценам. Для детей и их родителей скидки!</span>
+                                <a class="btn">Продукция</a>
+            
+                                <div class="buttons">
+            
+                                    <div class="btn-left">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
+                                            fill="none">
+                                            <circle cx="20" cy="20" r="20" transform="rotate(-180 20 20)" fill="#6B6B8A" />
+                                            <path d="M15.5995 24L12.3422 20M12.3422 20L15.5995 16M12.3422 20L27 20" stroke="white"
+                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+            
+                                    <div class="btn-right">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
+                                            fill="none">
+                                            <circle cx="20" cy="20" r="20" fill="#6B6B8A" />
+                                            <path d="M24.4005 16L27.6578 20M27.6578 20L24.4005 24M27.6578 20H13" stroke="white"
+                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <img scr="" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -170,6 +278,66 @@
         </div>
     </div>
 
+    <div id="contacts-block" class="contacts-block">
+        <div class="container">
+            <div class="contacts-block__wrapper">
+                <div class="contacts-block__left">
+                    <img class="contacts-block__img" src="./assets/images/icon.png">
+                </div>
+                <div class="contacts-block__right">
+                    <div class="contacts__title">Мои помощники</div>
+                    <div class="contacts__text">Значимость этих проблем настолько очевидна, что базовый вектор
+                        развития
+                        позволяет оценить значение экспериментов, поражающих по своей масштабности и
+                        грандиозности. Мы
+                        вынуждены отталкиваться от того, что консультация с широким активом.</div>
+                    <div class="contacts__helpers">
+                        <img src="./assets/images/helper.jpg" alt="">
+                        <img src="./assets/images/helper2.jpg" alt="">
+                        <img src="./assets/images/helper3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer_info">
+                    <img src="./assets/images/Frame 85 (1).png">
+                    <br>
+                    <div class="footer__info-phone">+7 (999)-99-99 Мастерская</div>
+                    <br>
+                    <div class="footer__info-text">Мастерская Настроения</div>
+                </div>
+                <div class="footer__cat">
+                    <div class="footer__cat-name">Товары</div>
+                    <div class="footer__menu-element">Палочки</div>
+                    <div class="footer__menu-element">Кристаллы</div>
+                    <div class="footer__menu-element">Украшения</div>
+                </div>
+                <div class="footer__menu">
+                    <div class="footer__menu-name">О нас</div>
+                    <div class="footer__menu-element">Производитель</div>
+                    <div class="footer__menu-element">Помощники</div>
+
+                </div>
+                <div class="footer__contacts">
+                    <div class="footer__icon-wrapper">
+                        <img src="./assets/images/Vector.png">
+                        <img src="./assets/images/Vector (1).png">
+                        <img src="./assets/images/Vector (2).png">
+                    </div>
+                    <div class="footer__name">Лавка Чародея</div>
+                    <div class="footer__copyright">All rights reserved</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
 
 </body>
 
